@@ -1,0 +1,78 @@
+.HomeSection {
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: center;
+}
+.Title {
+  margin-top: 10rem;
+}
+
+/* .Title {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  display: inline-block;
+} */
+.Title h1 {
+  font-size: 8rem;
+}
+
+.Title h2 {
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.Title h3 {
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.Title h4 {
+  font-size: 1.3rem;
+  letter-spacing: 2.5px;
+  font-weight: 200;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .Title h1 {
+    font-size: 5rem;
+  }
+  .Title h2 {
+    font-size: 2.5rem;
+  }
+
+  .Title h3 {
+    font-size: 2.5rem;
+  }
+
+  .Title h4 {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+}
+
+/* 320px, the smallest iphone */
+/* 320px/16px=  20em */
+@media only screen and (max-width: 20em) {
+  .Title h1 {
+    font-size: 4rem;
+  }
+  .Title h2 {
+    font-size: 2rem;
+  }
+
+  .Title h3 {
+    font-size: 2rem;
+  }
+
+  .Title h4 {
+    font-size: 1rem;
+  }
+}

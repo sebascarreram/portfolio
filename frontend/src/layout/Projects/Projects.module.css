@@ -1,0 +1,107 @@
+.ProjectSection {
+  padding: 2rem 0;
+  /* display: flex; */
+}
+
+.ProjectSection ul {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  list-style-type: none;
+  /* margin-top: 4rem; */
+}
+
+.ProjectSection ul a {
+  color: #000;
+  text-decoration: none;
+}
+
+.ProjectSection ul img {
+  display: block;
+
+  height: 200px;
+  width: 350px;
+
+  object-fit: cover;
+
+  transition: all 0.2s;
+}
+
+.ProjectSection ul img:hover {
+  transform: scale(0.9);
+}
+
+.BoxProject {
+  margin: 1rem;
+  width: 350px;
+
+  background-color: #fff;
+  box-shadow: 0 4px 40px 0px rgba(0, 0, 0, 0.15);
+
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.BoxProject p {
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1.2rem;
+
+  text-align: left;
+}
+
+.ProjectLink {
+  padding: 1.2rem;
+  text-align: left;
+  /* margin-top: 2rem; */
+}
+
+.ProjectLink a {
+  text-decoration: none;
+
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* width: 2rem;
+  height: 2rem; */
+}
+
+.ProjectLink a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* .ProjectLink img.Logo { */
+/* font-size: 2rem; */
+/* } */
+
+/* ICONS */
+
+.Logo {
+  /* background-size: 2rem; */
+  /* font-size: 2rem; */
+  /* display */
+  /* width: 100%; */
+  /* height: auto; */
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.Github {
+  /* background-image: url("./../../assets/Icons/logo-github.svg"); */
+  /* height: 50px; */
+  /* width: 50px; */
+
+  /* color: red; */
+  /* fill: red; */
+  /* background-color: red; */
+}
+
+.Soon {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}

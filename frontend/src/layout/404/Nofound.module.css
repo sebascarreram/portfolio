@@ -1,0 +1,38 @@
+.Nofound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Nofound h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20rem;
+}
+
+.Link {
+  text-decoration: none;
+  color: #2ecc71;
+}
+
+.Nofound h3 {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .Nofound h1 {
+    font-size: 15rem;
+  }
+  .Nofound h3 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .Nofound h1 {
+    font-size: 12rem;
+  }
+  .Nofound h3 {
+    font-size: 1.5rem;
+  }
+}

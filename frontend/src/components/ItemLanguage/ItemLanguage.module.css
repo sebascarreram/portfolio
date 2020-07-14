@@ -1,0 +1,28 @@
+.UlList {
+  list-style-type: none;
+
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.UlList li {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.UlList li:not(:last-of-type) {
+  margin-right: 4rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .UlList {
+    flex-direction: column;
+  }
+  .UlList li:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+  .UlList li:not(:last-of-type) {
+    margin-right: 0;
+  }
+}

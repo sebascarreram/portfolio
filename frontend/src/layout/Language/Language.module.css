@@ -1,0 +1,22 @@
+.SectionLanguage {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.SectionLanguage h1 {
+  font-size: 4rem;
+  color: #2ecc71;
+}
+
+@media only screen and (max-width: 75em) {
+  .SectionLanguage {
+    margin-top: 7rem;
+  }
+  .SectionLanguage h1 {
+    font-size: 3rem;
+  }
+}

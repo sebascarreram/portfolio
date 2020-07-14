@@ -1,0 +1,24 @@
+.Icon {
+  margin-top: 2.5rem;
+  width: 300px;
+}
+.Coming {
+  font-size: 4rem;
+  margin-top: 1rem;
+  /* text-align: center; */
+}
+@media only screen and (max-width: 37.5em) {
+  .Coming {
+    font-size: 2.6rem;
+  }
+  .Icon {
+    margin-top: 2.5rem;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .Coming {
+    font-size: 2.4rem;
+  }
+}

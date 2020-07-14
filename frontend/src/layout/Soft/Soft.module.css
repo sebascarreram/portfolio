@@ -1,0 +1,17 @@
+.SectionSoft {
+  margin-top: 10rem;
+}
+.SectionSoft h1 {
+  font-size: 4rem;
+  color: #2ecc71;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 75em) {
+  .SectionSoft {
+    margin-top: 7rem;
+  }
+  .SectionSoft h1 {
+    font-size: 3rem;
+  }
+}

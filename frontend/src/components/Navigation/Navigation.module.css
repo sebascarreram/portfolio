@@ -1,0 +1,56 @@
+.Nav ul {
+  display: flex;
+
+  list-style-type: none;
+}
+
+.Nav ul li:not(:last-of-type) {
+  margin-right: 2rem;
+}
+.Nav ul li:focus {
+  outline: none;
+}
+
+.Nav ul li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+
+  padding: 0 0.9rem 0.4rem 0.6rem;
+
+  transition: all 0.1s;
+
+  border-radius: 5px;
+}
+.Nav ul li a:hover {
+  border-bottom: 2px solid #2ecc71;
+}
+
+/* MOBILE */
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .Nav ul li:not(:last-of-type) {
+    margin-right: 1.3rem;
+  }
+  .Nav ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+/* 
+
+@if $breakpoint == phone {
+  @media only screen and (max-width: 37.5em) { @content };    //600px
+}
+@if $breakpoint == tab-port {
+  @media only screen and (max-width: 56.25em) { @content };     //900px
+}
+@if $breakpoint == tab-land {
+  @media only screen and (max-width: 75em) { @content };    //1200px
+}
+@if $breakpoint == big-desktop {
+  @media only screen and (min-width: 112.5em) { @content };    //1800
+} 
+
+*/

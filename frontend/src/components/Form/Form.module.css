@@ -1,0 +1,45 @@
+.BoxForm {
+  margin-top: 2rem;
+  width: 40rem;
+}
+
+.Forgot {
+  text-decoration: none;
+  color: #e74c3c;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .Flex {
+    flex-direction: column;
+  }
+
+  .Flex > div {
+    width: 100%;
+  }
+
+  .Flex > div:first-child {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+/* @media only screen and (max-width: 20em) {
+  .BoxForm {
+    width: 100%;
+  }
+} */
+
+@media only screen and (max-width: 37.5em) {
+  .BoxForm {
+    width: 100%;
+  }
+}

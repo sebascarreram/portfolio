@@ -1,0 +1,43 @@
+.SectionSkills {
+  margin-top: 9rem;
+  padding: 3rem 0;
+}
+
+.TextAlign {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.TextAlign h1 {
+  font-size: 4rem;
+  color: #2ecc71;
+  margin-bottom: 1rem;
+}
+
+.TextAlign p {
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+}
+
+.TextAlign hr {
+  width: 20%;
+  margin-bottom: 2rem;
+  margin: auto;
+  border: 1px solid #bdc3c76b;
+}
+@media only screen and (max-width: 75em) {
+  .SectionSkills {
+    margin-top: 7rem;
+  }
+  .TextAlign h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .TextAlign p {
+    font-size: 1.3rem;
+  }
+}

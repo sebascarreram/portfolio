@@ -1,0 +1,68 @@
+.Social {
+  margin-top: 2rem;
+}
+
+.Social ul {
+  /* text-decoration: none; */
+  list-style-type: none;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.Social ul li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.Social ul li a {
+  text-decoration: none;
+}
+/* .Social ul li a {
+  fill: blue;
+  color: purple;
+} */
+
+.Social ul li a img {
+  width: 35px;
+  height: 35px;
+  transition: all 0.2s;
+}
+.Social ul li a img:hover {
+  /* fill: red; */
+  filter: invert(0.5);
+  /* fill: #2ecc71; */
+}
+
+.Logo {
+}
+
+@media only screen and (max-width: 37.5em) {
+  .Social {
+    margin-top: 1.5rem;
+  }
+  .Social ul li a img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+}
+
+/* 
+
+@if $breakpoint == phone {
+  @media only screen and (max-width: 37.5em) { @content };    //600px
+}
+@if $breakpoint == tab-port {
+  @media only screen and (max-width: 56.25em) { @content };     //900px
+}
+@if $breakpoint == tab-land {
+  @media only screen and (max-width: 75em) { @content };    //1200px
+}
+@if $breakpoint == big-desktop {
+  @media only screen and (min-width: 112.5em) { @content };    //1800
+} 
+
+*/
