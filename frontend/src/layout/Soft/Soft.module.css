@@ -16,7 +16,7 @@
 }
 @media only screen and (max-width: 75em) {
   .SectionSoft {
-    margin-top: 7rem;
+    margin: 7rem 1rem 0 1rem;
   }
   .SectionSoft h1 {
     font-size: 3rem;

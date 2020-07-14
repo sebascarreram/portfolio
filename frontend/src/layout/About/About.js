@@ -94,8 +94,8 @@ const About = () => {
 
       <div className={style.Download}>
         <p>
-          Recruiters, you can find my up-to-date CV as a PDF download by
-          clicking the button below.
+          You can find my up-to-date CV as a PDF download by clicking the button
+          below.
         </p>
         <a
           rel="noopener noreferrer"
