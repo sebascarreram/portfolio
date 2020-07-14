@@ -20,7 +20,8 @@ const Logo = props => {
     location.pathname === "/projects" ||
     location.pathname === "/contact" ||
     location.pathname === "/admin" ||
-    location.pathname === "/about"
+    location.pathname === "/about" ||
+    location.pathname === "/portfolio"
     // location.pathname === "/login"
   ) {
     name = (
