@@ -5,6 +5,7 @@ import ItemSoft from "./../../components/ItemSoft/ItemSoft";
 const Soft = () => (
   <section className={style.SectionSoft}>
     <h1>Soft skills</h1>
+    <hr />
     <ItemSoft />
   </section>
 );

@@ -5,6 +5,7 @@ import style from "./Language.module.css";
 const Language = () => (
   <section className={style.SectionLanguage}>
     <h1>Languages</h1>
+    <hr />
     <ItemLanguage />
   </section>
 );

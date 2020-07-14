@@ -12,6 +12,13 @@
   color: #2ecc71;
 }
 
+.SectionLanguage hr {
+  width: 20%;
+  margin-bottom: 2rem;
+  margin: auto;
+  border: 1px solid #bdc3c76b;
+}
+
 @media only screen and (max-width: 75em) {
   .SectionLanguage {
     margin-top: 7rem;
