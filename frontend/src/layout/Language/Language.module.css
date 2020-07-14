@@ -10,11 +10,12 @@
 .SectionLanguage h1 {
   font-size: 4rem;
   color: #2ecc71;
+  margin-bottom: 1.6rem;
 }
 
 .SectionLanguage hr {
   width: 20%;
-  margin-bottom: 2rem;
+
   margin: auto;
   border: 1px solid #bdc3c76b;
 }
