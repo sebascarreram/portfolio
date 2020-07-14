@@ -2,7 +2,7 @@ import React from "react";
 import Aux from "./../../hoc/Aux";
 import axios from "axios";
 
-import Form from "./../../components/Form/Form";
+// import Form from "./../../components/Form/Form";
 import style from "./Contact.module.css";
 
 class Contact extends React.Component {

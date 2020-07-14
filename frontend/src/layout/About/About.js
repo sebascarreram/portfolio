@@ -10,7 +10,7 @@ import Soft from "./../Soft/Soft";
 import ListSkill from "../ListSkills/ListSkills";
 import Emoji from "./../../components/UI/Emoji/Emoji";
 import ImageCode from "./../../assets/images/code.jpg";
-import PdfResumen from "./../../assets/pdf/Sebastian Carrera Resume version 2.pdf";
+import PdfResumen from "./../../assets/pdf/SCM.pdf";
 
 const About = () => {
   return (
