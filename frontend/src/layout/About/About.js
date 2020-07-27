@@ -23,6 +23,9 @@ const About = () => {
               <hr />
               <p>Hey, I'm Sebastian Carrera Medina.</p>
               <p>
+                I'm deaf since born and i have a cochlear implant for hearing.
+              </p>
+              <p>
                 I'm a web developer and i've been making websites for about 1
                 years.
               </p>
