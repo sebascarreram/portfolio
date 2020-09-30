@@ -58,9 +58,9 @@ const Skills = () => {
         <ListSkills>
           ReactJS <Icon src={IconReact} alt="Icon React" />
         </ListSkills>
-        <ListSkills>
+        {/* <ListSkills>
           Redux <Icon src={IconRedux} alt="Icon Redux" />
-        </ListSkills>
+        </ListSkills> */}
         <ListSkills>
           Hooks <Icon src={IconHooks} alt="Icon Hooks" />
         </ListSkills>
