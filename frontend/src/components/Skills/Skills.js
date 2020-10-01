@@ -13,7 +13,7 @@ import IconScss from "./../../assets/Icons/SVG/sass.svg";
 import IconStyled from "./../../assets/Icons/SVG/styled-components.svg";
 import IconModules from "./../../assets/Icons/SVG/css-modules-logo.svg";
 import IconReact from "./../../assets/Icons/SVG/react.svg";
-import IconRedux from "./../../assets/Icons/SVG/redux.svg";
+// import IconRedux from "./../../assets/Icons/SVG/redux.svg";
 import IconHooks from "./../../assets/Icons/SVG/react-hooks.svg";
 import IconGatsby from "./../../assets/Icons/SVG/gatsby.svg";
 import IconGit from "./../../assets/Icons/SVG/git.svg";
