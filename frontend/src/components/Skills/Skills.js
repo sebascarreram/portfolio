@@ -25,6 +25,7 @@ import IconNode from "./../../assets/Icons/SVG/node-dot-js.svg";
 import IconPug from "./../../assets/Icons/SVG/pug.svg";
 import IconPostman from "./../../assets/Icons/SVG/postman.svg";
 import IconVS from "./../../assets/Icons/SVG/visualstudiocode.svg";
+import IconVim from "./../../assets/Icons/SVG/vim.svg";
 
 const Skills = () => {
   return (
@@ -108,6 +109,9 @@ const Skills = () => {
         </ListSkills>
         <ListSkills>
           Visual Studio Code <Icon src={IconVS} alt="Icon VS" />
+        </ListSkills>
+        <ListSkills>
+          Vim <Icon src={IconVim} alt="Icon vim" />
         </ListSkills>
       </ItemSkills>
     </div>
