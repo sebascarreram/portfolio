@@ -86,7 +86,7 @@ class Contact extends React.Component {
             <div className={style.CardMessage}>
               <p>E-mail: sebascarreram@hotmail.com</p>
               <p>Please write your name with SCM in subject like: </p>
-              <p>"yourname - SCM"</p>
+							<p>"yourName - SCM"</p>
               <p>
                 <b>Thank you</b>
               </p>
