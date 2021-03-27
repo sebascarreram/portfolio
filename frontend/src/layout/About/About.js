@@ -21,46 +21,34 @@ const About = () => {
             <div className={style.Paragraph}>
               <h1>Who am I...</h1>
               <hr />
-              <p>Hey, I'm Sebastian Carrera Medina.</p>
               <p>
-                I'm deaf since born and i have a cochlear implant for hearing.
-              </p>
-              <p>
-                I'm a web developer and i've been making websites for about 1
-                years.
-              </p>
-              <p>
-                I'm specialized in frontend development and as well as backend.
+                Hey, I'm Sebastian Carrera Medina, and I'm a junior web
+                developer who specializes in frontend including HTML, SCSS,
+                JavaScript, and React.
               </p>
               <br />
               <p>
-                The technologies I work with are JavaScript, HTML and CSS with a
-                focus on the frameworks React.js, Gatsby.js, Node.js, Express.js
-                and pug.js. or look down there to my skills.{" "}
-                <Emoji symbol="⤵️" label="arrow" />
+                The technologies I work with HTML, SCSS, and JavaScript with a
+                focus on the frameworks React.js, and Gatsby.js, or look down
+                there to my skills. <Emoji symbol="⤵️" label="arrow" />
               </p>
               <p>
-                I’m passionate about learning all kinds of new web technologies
-                and I’m constantly working on bettering my coding skills but
-                always with coffee. <Emoji symbol="☕️" label="coffe" />
-              </p>
-              <br />
-              <p>
-                I graduated from CECEP in technology in information systems in
-                2019 after started i've had been practicing as a web developer
-                with JavaScript.
+                I’m passionate about learning new technologies and I’m
+                constantly working to be better at coding/skills but always with
+                coffee. <Emoji symbol="☕️" label="coffe" />. But without coffee
+                and it's ok i will continue to work <Emoji symbol="💪" label="strong" />.
               </p>
               <br />
               <p>
-                When I'm not writing code i love to spend time watch
+                When I'm not writing code I love to spend time watch
                 films/series with my family &amp; my dogs{" "}
                 <Emoji symbol="🐶" label="dog" /> and especially with my sister
-                because she literally likes so much watch films/series like me
-                or travelling to USA <Emoji symbol="🇺🇸" label="flag" /> to visit
-                my family when i'm on vacation.
+                because she literally likes so much to watch films/series like me
+                or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to visit
+                my family when I'm on vacation.
               </p>
               <br />
-              <p>This site is my portfolio where i'll be launch my projects.</p>
+              <p>This site is my portfolio where I'll be launching my projects.</p>
               <br />
               <p>
                 Thank you for reading my portfolio.{" "}

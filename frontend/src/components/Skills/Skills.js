@@ -46,6 +46,7 @@ const Skills = () => {
         <ListSkills>
           SCSS <Icon src={IconScss} alt="Icon SCSS" />
         </ListSkills>
+        {/* 
         <ListSkills>
           styled components{" "}
           <Icon src={IconStyled} alt="Icon style-components" />
@@ -53,6 +54,7 @@ const Skills = () => {
         <ListSkills>
           CSS modules <Icon src={IconModules} alt="Icon CSS modules" />
         </ListSkills>
+        */}
       </ItemSkills>
 
       <ItemSkills>
@@ -61,13 +63,14 @@ const Skills = () => {
         </ListSkills>
         {/* <ListSkills>
           Redux <Icon src={IconRedux} alt="Icon Redux" />
-        </ListSkills> */}
+        </ListSkills> 
         <ListSkills>
           Hooks <Icon src={IconHooks} alt="Icon Hooks" />
         </ListSkills>
         <ListSkills>
           GatsbyJS <Icon src={IconGatsby} alt="Icon GatsbyJS" />
         </ListSkills>
+        */}
       </ItemSkills>
 
       <ItemSkills>
@@ -85,7 +88,8 @@ const Skills = () => {
         </ListSkills>
       </ItemSkills>
 
-      <ItemSkills>
+      {/*
+        <ItemSkills>
         <ListSkills>
           Express.JS <Icon src={IconBuild} alt="Icon Build" />
         </ListSkills>
@@ -99,14 +103,15 @@ const Skills = () => {
           Pug.JS <Icon src={IconPug} alt="Icon Pug" />
         </ListSkills>
       </ItemSkills>
-
+      */}
       <ItemSkills>
+        {/*
         <ListSkills>
           Postman <Icon src={IconPostman} alt="Icon Postman" />
         </ListSkills>
         <ListSkills>
           MongoDB compass <Icon src={IconMongoDB} alt="Icon MongoDB" />
-        </ListSkills>
+        </ListSkills>*/}
         <ListSkills>
           Visual Studio Code <Icon src={IconVS} alt="Icon VS" />
         </ListSkills>

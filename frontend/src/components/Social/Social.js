@@ -21,10 +21,11 @@ const Social = () => {
         <SocialItem NoTo href="https://github.com/sebascarreram/">
           <img alt="logo github" src={LogoGithub} />
         </SocialItem>
-
+        {/* 
         <SocialItem NoTo href="https://www.linkedin.com/in/sebastiancarrera/">
           <img alt="logo linkedin" src={LogoLinkedin} />
         </SocialItem>
+        */}
 
         <SocialItem toLink="/contact">
           <img alt="logo mail" src={LogoMail} />

@@ -7,30 +7,17 @@ import ListSkills from "./../Skills/Lists/Lists";
 const ItemSoft = () => (
   <div className={style.Skills}>
     <ItemSkills>
-      <ListSkills>Visual communication</ListSkills>
-      <ListSkills>Creativity</ListSkills>
-      <ListSkills>Critical observations</ListSkills>
-      <ListSkills>Desire to learn</ListSkills>
+      <ListSkills>Teamwork</ListSkills>
+      <ListSkills>Perseverance</ListSkills>
+      <ListSkills>Adaptability</ListSkills>
+      <ListSkills>Time management</ListSkills>
     </ItemSkills>
 
     <ItemSkills>
-      <ListSkills>Design aptitude</ListSkills>
+      <ListSkills>Empathy</ListSkills>
       <ListSkills>Problem solving</ListSkills>
-      <ListSkills>Research</ListSkills>
+      <ListSkills>Work ethic</ListSkills>
       <ListSkills>Honestly</ListSkills>
-    </ItemSkills>
-
-    <ItemSkills>
-      <ListSkills>Friendliness</ListSkills>
-      <ListSkills>Confidence</ListSkills>
-      <ListSkills>Dealing with difficult situations</ListSkills>
-      <ListSkills>Disability awareness</ListSkills>
-    </ItemSkills>
-
-    <ItemSkills>
-      <ListSkills>Dedication</ListSkills>
-      <ListSkills>Confidence</ListSkills>
-      <ListSkills>Motivation</ListSkills>
     </ItemSkills>
   </div>
 );
