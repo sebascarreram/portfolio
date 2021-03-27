@@ -8,7 +8,7 @@ import LogoGithub from "./../../assets/Icons/SVG/github-green.svg";
 import LogoInstagram from "./../../assets/Icons/SVG/instagram.svg";
 // import LogoMail from "./../../assets/Icons/mail-outline.svg";
 import LogoMail from "./../../assets/Icons/SVG/mail-outline.svg";
-import LogoLinkedin from "./../../assets/Icons/SVG/linkedin.svg";
+//import LogoLinkedin from "./../../assets/Icons/SVG/linkedin.svg";
 
 const Social = () => {
   return (

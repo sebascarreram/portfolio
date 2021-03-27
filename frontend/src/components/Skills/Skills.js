@@ -10,20 +10,20 @@ import IconHtml from "./../../assets/Icons/SVG/html-five.svg";
 import IconCss from "./../../assets/Icons/SVG/css3.svg";
 import IconJS from "./../../assets/Icons/SVG/javascript.svg";
 import IconScss from "./../../assets/Icons/SVG/sass.svg";
-import IconStyled from "./../../assets/Icons/SVG/styled-components.svg";
-import IconModules from "./../../assets/Icons/SVG/css-modules-logo.svg";
+//import IconStyled from "./../../assets/Icons/SVG/styled-components.svg";
+//import IconModules from "./../../assets/Icons/SVG/css-modules-logo.svg";
 import IconReact from "./../../assets/Icons/SVG/react.svg";
 // import IconRedux from "./../../assets/Icons/SVG/redux.svg";
-import IconHooks from "./../../assets/Icons/SVG/react-hooks.svg";
-import IconGatsby from "./../../assets/Icons/SVG/gatsby.svg";
+//import IconHooks from "./../../assets/Icons/SVG/react-hooks.svg";
+//import IconGatsby from "./../../assets/Icons/SVG/gatsby.svg";
 import IconGit from "./../../assets/Icons/SVG/git.svg";
 import IconGithub from "./../../assets/Icons/SVG/github.svg";
 import IconBitbucket from "./../../assets/Icons/SVG/bitbucket.svg";
 import IconBuild from "./../../assets/Icons/SVG/cogs.svg";
-import IconMongoDB from "./../../assets/Icons/SVG/mongodb.svg";
-import IconNode from "./../../assets/Icons/SVG/node-dot-js.svg";
-import IconPug from "./../../assets/Icons/SVG/pug.svg";
-import IconPostman from "./../../assets/Icons/SVG/postman.svg";
+//import IconMongoDB from "./../../assets/Icons/SVG/mongodb.svg";
+//import IconNode from "./../../assets/Icons/SVG/node-dot-js.svg";
+//import IconPug from "./../../assets/Icons/SVG/pug.svg";
+//import IconPostman from "./../../assets/Icons/SVG/postman.svg";
 import IconVS from "./../../assets/Icons/SVG/visualstudiocode.svg";
 import IconVim from "./../../assets/Icons/SVG/vim.svg";
 
@@ -116,7 +116,7 @@ const Skills = () => {
           Visual Studio Code <Icon src={IconVS} alt="Icon VS" />
         </ListSkills>
         <ListSkills>
-          Vim <Icon src={IconVim} alt="Icon vim" />
+          Vim - Neovim <Icon src={IconVim} alt="Icon vim" /> 
         </ListSkills>
       </ItemSkills>
     </div>
