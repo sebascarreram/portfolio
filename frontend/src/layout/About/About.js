@@ -29,26 +29,29 @@ const About = () => {
               <br />
               <p>
                 The technologies I work with HTML, SCSS, and JavaScript with a
-                focus on the frameworks React.js, and Gatsby.js, or look down
-                there to my skills. <Emoji symbol="⤵️" label="arrow" />
+                focus on the JavaScript library React or look down there to my skills.{" "}
+                <Emoji symbol="⤵️" label="arrow" />
               </p>
               <p>
                 I’m passionate about learning new technologies and I’m
                 constantly working to be better at coding/skills but always with
                 coffee. <Emoji symbol="☕️" label="coffe" />. But without coffee
-                and it's ok i will continue to work <Emoji symbol="💪" label="strong" />.
+                and it's ok i will continue to work{" "}
+                <Emoji symbol="💪" label="strong" />.
               </p>
               <br />
               <p>
                 When I'm not writing code I love to spend time watch
                 films/series with my family &amp; my dogs{" "}
                 <Emoji symbol="🐶" label="dog" /> and especially with my sister
-                because she literally likes so much to watch films/series like me
-                or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to visit
-                my family when I'm on vacation.
+                because she literally likes so much to watch films/series like
+                me or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to
+                visit my family when I'm on vacation.
               </p>
               <br />
-              <p>This site is my portfolio where I'll be launching my projects.</p>
+              <p>
+                This site is my portfolio where I'll be launching my projects.
+              </p>
               <br />
               <p>
                 Thank you for reading my portfolio.{" "}
