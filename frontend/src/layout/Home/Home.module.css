@@ -31,10 +31,10 @@
 }
 
 .Title h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: 2.5px;
   font-weight: 200;
-
+  margin-top: -1rem;
   display: flex;
   justify-content: center;
 }
