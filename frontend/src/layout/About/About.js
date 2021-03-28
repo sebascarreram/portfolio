@@ -29,7 +29,7 @@ const About = () => {
               <br />
               <p>
                 The technologies I work with HTML, SCSS, and JavaScript with a
-                focus on the JavaScript library React or look down there to my skills.{" "}
+                focus on the JavaScript library React or look at down there to my skills.{" "}
                 <Emoji symbol="⤵️" label="arrow" />
               </p>
               <p>
