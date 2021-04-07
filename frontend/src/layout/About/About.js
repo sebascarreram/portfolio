@@ -45,7 +45,7 @@ const About = () => {
                 films/series with my family &amp; my dogs{" "}
                 <Emoji symbol="🐶" label="dog" /> and especially with my sister
                 because she literally likes so much to watch films/series like
-                me or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to
+                me. I read books about biography, history, mathematics, and wellness or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to
                 visit my family when I'm on vacation.
               </p>
               <br />
