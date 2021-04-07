@@ -29,8 +29,8 @@ const About = () => {
               <br />
               <p>
                 The technologies I work with HTML, SCSS, and JavaScript with a
-                focus on the JavaScript library React or look at down there to my skills.{" "}
-                <Emoji symbol="⤵️" label="arrow" />
+                focus on the JavaScript library React or look at down there to
+                my skills. <Emoji symbol="⤵️" label="arrow" />
               </p>
               <p>
                 I’m passionate about learning new technologies and I’m
@@ -45,8 +45,8 @@ const About = () => {
                 films/series with my family &amp; my dogs{" "}
                 <Emoji symbol="🐶" label="dog" /> and especially with my sister
                 because she literally likes so much to watch films/series like
-                me. I read books about biography, history, mathematics, and wellness or traveling to the USA <Emoji symbol="🇺🇸" label="flag" /> to
-                visit my family when I'm on vacation.
+                me. and I read books about biography, history, mathematics, and
+                wellness.{" "}
               </p>
               <br />
               <p>
