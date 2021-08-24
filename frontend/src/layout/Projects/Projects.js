@@ -28,36 +28,39 @@ const Projects = () => {
     List = (
       <div className="container">
         <ul>
-          {projectsList.map(
-            ({ id, name, github, url, image }, i) => {
-              return (
-                <li key={id} className={style.BoxProject}>
+          {projectsList.map(({ id, name, github, url, image }, i) => {
+            return (
+              <li key={id} className={style.BoxProject}>
+                <a rel="noopener noreferrer" target="_blank" href={url}>
+                  <img
+                    src={require(`./../../assets/images/projects/${image}`)}
+                    alt={name}
+                  />
+                  <p>
+                    {i + 1}. {name}
+                  </p>
+                </a>
+                <div className={style.ProjectLink}>
                   <a
-                    rel="noopener noreferrer"
+                    aria-label={name}
+                    href={`https://github.com/sebascarreram/${github}`}
                     target="_blank"
-                    href={url}
+                    rel="noopener noreferrer"
                   >
-                    
-                    <img
-                      src={require(`./../../assets/images/projects/${image}`)}
-                      alt={name}
-                    />
-                    <p>
-                      {i + 1}. {name}
-                    </p>
+                    <GithubLogo />
                   </a>
-                  <div className={style.ProjectLink}>
-                    <a aria-label={name} href={`https://github.com/sebascarreram/${github}`} target="_blank">
-                      <GithubLogo />
-                    </a>
-                    <a aria-label={name} href={`${url}`} target="_blank">
-                      <EyeLogo />
-                    </a>
-                  </div>
-                </li>
-              );
-            }
-          )}
+                  <a
+                    aria-label={name}
+                    href={`${url}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <EyeLogo />
+                  </a>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     );

@@ -1,19 +1,10 @@
-import React, { Suspense } from "react";
+import React from "react";
 
 import { Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
 import Aux from "./hoc/Aux";
-// import Home from "./layout/Home/Home";
-// import Portfolio from "./layout/Projects/Projects";
-// import ItemPortfolio from "";
-// import About from "./layout/About/About";
-// import Contact from "./layout/Contact/Contact";
-// import Admin from "./layout/Admin/Admin";
-// import Login from "./layout/Login/Login";
-// import Forgot from "./layout/Forgot/Forgot";
-// import Nofound from "./layout/404/Nofound";
 
 import Layout from "./layout/Layout";
 
