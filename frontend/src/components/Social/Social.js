@@ -14,9 +14,11 @@ const Social = () => {
   return (
     <div className={style.Social}>
       <ul>
+        {/*
         <SocialItem NoTo href="https://www.instagram.com/sebascarreram/">
           <img className={style.Logo} alt="logo instagram" src={LogoInstagram} />
         </SocialItem>
+        */}
 
         <SocialItem NoTo href="https://github.com/sebascarreram/">
           <img alt="logo github" src={LogoGithub} />

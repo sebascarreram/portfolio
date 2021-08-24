@@ -30,23 +30,15 @@ const About = () => {
               <p>
                 The technologies I work with HTML, SCSS, and JavaScript with a
                 focus on the JavaScript library React or look at down there to
-                my skills. <Emoji symbol="⤵️" label="arrow" />
+                my skills.{" "}  
+                <a href="#emoji">
+                  <Emoji symbol="⬇️" label="arrow" />
+                </a>
               </p>
               <p>
-                I’m passionate about learning new technologies and I’m
-                constantly working to be better at coding/skills but always with
-                coffee. <Emoji symbol="☕️" label="coffe" />. But without coffee
-                and it's ok i will continue to work{" "}
-                <Emoji symbol="💪" label="strong" />.
-              </p>
-              <br />
-              <p>
-                When I'm not writing code I love to spend time watch
-                films/series with my family &amp; my dogs{" "}
-                <Emoji symbol="🐶" label="dog" /> and especially with my sister
-                because she literally likes so much to watch films/series like
-                me. and I read books about biography, history, mathematics, and
-                wellness.{" "}
+                I'm passionate about coding and I'm always looking for a new
+                challenge. I love discovering new skills and technologies to
+                produce the best websites.{" "}
               </p>
               <br />
               <p>
@@ -84,7 +76,7 @@ const About = () => {
       </section>
       <Language />
       <Soft />
-      <ListSkill />
+      <ListSkill clickGo="emoji"/>
 
       <div className={style.Download}>
         <p>

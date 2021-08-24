@@ -1,95 +1,138 @@
 import React from "react";
 import Aux from "./../../hoc/Aux";
 import axios from "axios";
+import Modal from "././../../components/UI/Modal/Modal";
 
 // import Form from "./../../components/Form/Form";
-import style from "./Contact.module.css";
+import styleContact from "./Contact.module.css";
 
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       name: "",
+      lastname: "",
       email: "",
-      subject: "",
-      message: ""
+      message: "",
     };
   }
 
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
+  onNameChange(e) {
+    this.setState({ name: e.target.value });
   }
 
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
+  onLastNameChange(e) {
+    this.setState({ lastname: e.target.value });
   }
 
-  onSubjectChange(event) {
-    this.setState({ subject: event.target.value });
+  onEmailChange(e) {
+    this.setState({ email: e.target.value });
   }
 
-  onPurchaseCancelHandler() {
-    this.setState({ purchasing: false });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
+  onMessageChange(e) {
+    this.setState({ message: e.target.value });
   }
 
   resetForm() {
-    this.setState({ name: "", email: "", subject: "", message: "" });
+    this.setState({ name: "", lastname: "", email: "", message: "" });
   }
 
   handleSubmit(event) {
     event.preventDefault();
-
+    console.log(this.state);
+    if (!this.state.name) {
+      return "ERROR";
+    }
     axios({
       method: "POST",
       url: "http://localhost:3002/send",
-      data: this.state
-    }).then(response => {
+      data: this.state,
+    }).then((response) => {
+      //  console.log(response)
       if (response.data.status === "success") {
-        alert(
-          "\t\tThank you for contacting us.\t\t\t\n\tWe will reply to you as soon as possible.\t"
-        );
+        //<Modal>Message send.</Modal>;
+        alert("Message Sent.");
         this.resetForm();
       } else if (response.data.status === "fail") {
-        alert("Message failed to send / Mensaje no enviado");
+        alert("Message failed to send.");
       }
     });
   }
-
   render() {
     return (
       <Aux>
-        <section className={style.ContactSection}>
-          <div className={style.CardContact}>
-            {/* <h1>Contact me</h1> */}
-            <p>Thank you for taking the time to reach out.</p>
-            <p>How can i help you today?</p>
-            {/* Form */}
-            {/* <Form
-              isContact
-              id="contact-form"
-              onSubmit={this.handleSubmit.bind(this)}
-              // onChangeName={`${this.state.name}`}
-              onChangeName={this.onNameChange.bind(this)}
-              onChangeEmail={this.onEmailChange.bind(this)}
-              onChangeSubject={this.onSubjectChange.bind(this)}
-              onChangeMessage={this.onMessageChange.bind(this)}
-              valueNam={this.state.name}
-              valueEmail={this.state.email}
-              valueSubject={this.state.subject}
-              valueMessage={this.state.message}
-            /> */}
-            <div className={style.CardMessage}>
-              <p>E-mail: sebascarreram@hotmail.com</p>
-              <p>Please write your name with SCM in subject like: </p>
-							<p>"yourName - SCM"</p>
-              <p>
-                <b>Thank you</b>
+        <section className={styleContact.ContactSection}>
+          <div className={styleContact.CardContact}>
+            <div>
+              <p className={styleContact.message}>
+                Thank you for taking the time to reach out.
               </p>
+              <p className={styleContact.message}>How can i help you today?</p>
+            </div>
+            {/* Form */}
+
+            <div className={styleContact.formDiv}>
+              <form
+                id="contact-form"
+                onSubmit={this.handleSubmit.bind(this)}
+                method="POST"
+              >
+                <div className={styleContact.formGroup}>
+                  <label htmlFor="name" className={styleContact.label}>
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    className={styleContact.formControl}
+                    id="name"
+                    value={this.state.name}
+                    onChange={this.onNameChange.bind(this)}
+                  />
+                </div>
+                <div className={styleContact.formGroup}>
+                  <label htmlFor="lastname" className={styleContact.label}>
+                    Last name
+                  </label>
+                  <input
+                    type="text"
+                    className={styleContact.formControl}
+                    id="lastname"
+                    value={this.state.lastname}
+                    onChange={this.onLastNameChange.bind(this)}
+                  />
+                </div>
+                <div className={styleContact.formGroup}>
+                  <label
+                    htmlFor="exampleInputEmail1"
+                    className={styleContact.label}
+                  >
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    className={styleContact.formControl}
+                    id="email"
+                    aria-describedby="emailHelp"
+                    value={this.state.email}
+                    onChange={this.onEmailChange.bind(this)}
+                  />
+                </div>
+                <div className={styleContact.formGroup}>
+                  <label htmlFor="message" className={styleContact.label}>
+                    Message
+                  </label>
+                  <textarea
+                    className={styleContact.formControl}
+                    rows="5"
+                    id="message"
+                    value={this.state.message}
+                    onChange={this.onMessageChange.bind(this)}
+                  />
+                </div>
+                <button type="submit" className={styleContact.btnPrimary}>
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
         </section>

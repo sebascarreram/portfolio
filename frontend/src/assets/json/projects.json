@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "skills": ["React", "Sass"],
+    "github": "portfolio",
+    "url": "",
+    "image": "portfolio.png",
+    "info": "Random colors - Hexadecimal and click an icon to copy hexadecimal."
+  },
+  {
+    "id": 2,
+    "name": "To do task",
+    "skills": ["React", "Module css"],
+    "github": "to-do_list",
+    "url": "https://scm-to-do-list.netlify.app/",
+    "image": "to-do_list.png",
+    "info": "Sample todo app built with the React Hook and Sass."
+  },
+  {
+    "id": 3,
+    "name": "Countries",
+    "skills": ["React", "Sass", "API"],
+    "github": "countries-search",
+    "url": "https://countries-data-search.netlify.app",
+    "image": "countries-search.png",
+    "info": "World Countries Data - search countries."
+  },
+  {
+    "id": 4,
+    "name": "Hexadecimal random",
+    "skills": ["React", "Sass"],
+    "github": "hexadecimal-random",
+    "url": "https://hexadecimal-random.netlify.app",
+    "image": "hexadecimal-random.png",
+    "info": "Random colors - Hexadecimal and click an icon to copy hexadecimal."
+  },
+  {
+    "id": 5,
+    "name": "Counter",
+    "skills": ["React", "Sass"],
+    "github": "counter-background",
+    "url": "https://counter-background.netlify.app",
+    "image": "counter-background.png",
+    "info": "Counter and change color in background, color: white and black. Built frontend with React and Sass."
+  },
+  {
+    "id": 6,
+    "name": "Numbers even, odd & Prime",
+    "skills": ["React", "Sass"],
+    "github": "numbers_Even-Odd-Prime__React",
+    "url": "https://even-odd-prime.netlify.app",
+    "image": "numbers_even-odd-prime.png",
+    "info": "Create numbers Even, Odd, and Prime using React."
+  },
+  {
+    "id": 7,
+    "name": "Day time",
+    "skills": ["React", "Sass"],
+    "github": "day-time",
+    "url": "https://day-time.netlify.app/",
+    "image": "day-time.png",
+    "info": "A single page application which change the card of the background and a title based on the time of the day(morning, noon, evening, night)."
+  },
+  {
+    "id": 8,
+    "name": "Front end challenges",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "github": "frontend-challenges",
+    "url": "https://challenges-scm.netlify.app/",
+    "image": "frontend-challenges.png",
+    "info": "My submissions for the Frontend Mentor Challenges."
+  }
+]

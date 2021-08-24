@@ -29,27 +29,28 @@ const Projects = () => {
       <div className="container">
         <ul>
           {projectsList.map(
-            ({ _id, title, url_github, url_website, photo }, i) => {
+            ({ id, name, github, url, image }, i) => {
               return (
-                <li key={_id} className={style.BoxProject}>
+                <li key={id} className={style.BoxProject}>
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href={`https://github.com/sebascarreram/${url_github}`}
+                    href={url}
                   >
+                    
                     <img
-                      src={require(`./../../assets/images/${photo}`)}
-                      alt={title}
+                      src={require(`./../../assets/images/projects/${image}`)}
+                      alt={name}
                     />
                     <p>
-                      {i + 1}. {title}
+                      {i + 1}. {name}
                     </p>
                   </a>
                   <div className={style.ProjectLink}>
-                    <a aria-label={title} href={`${url_website}`}>
+                    <a aria-label={name} href={`https://github.com/sebascarreram/${github}`} target="_blank">
                       <GithubLogo />
                     </a>
-                    <a aria-label={title} href={`${url_website}`}>
+                    <a aria-label={name} href={`${url}`} target="_blank">
                       <EyeLogo />
                     </a>
                   </div>
