@@ -28,7 +28,7 @@ const Projects = () => {
     List = (
       <div className="container">
         <ul>
-          {projectsList.map(({ id, name, github, url, image }, i) => {
+          {projectsList.map(({ id, name, github, url, image, info }, i) => {
             return (
               <li key={id} className={style.BoxProject}>
                 <a rel="noopener noreferrer" target="_blank" href={url}>
@@ -36,10 +36,11 @@ const Projects = () => {
                     src={require(`./../../assets/images/projects/${image}`)}
                     alt={name}
                   />
-                  <p>
-                    {i + 1}. {name}
+                  <p className={style.nameOne}>
+                    {i + 1}. <span className={style.nameTwo}>{name}</span>
                   </p>
                 </a>
+                <p className={style.info}>{info}</p>
                 <div className={style.ProjectLink}>
                   <a
                     aria-label={name}
