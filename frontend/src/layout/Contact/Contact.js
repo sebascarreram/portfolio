@@ -1,7 +1,7 @@
 import React from "react";
 import Aux from "./../../hoc/Aux";
 import axios from "axios";
-import Modal from "././../../components/UI/Modal/Modal";
+//import Modal from "././../../components/UI/Modal/Modal";
 
 // import Form from "./../../components/Form/Form";
 import styleContact from "./Contact.module.css";
