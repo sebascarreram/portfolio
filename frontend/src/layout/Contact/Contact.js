@@ -44,17 +44,17 @@ class Contact extends React.Component {
       return "ERROR";
     }
     axios({
-      method: "POST",
-      url: "http://localhost:3002/send",
+      method: 'POST',
+      url: 'https://powerful-lake-01064.herokuapp.com/send',
       data: this.state,
     }).then((response) => {
       //  console.log(response)
-      if (response.data.status === "success") {
+      if (response.data.status === 'success') {
         //<Modal>Message send.</Modal>;
-        alert("Message Sent.");
+        alert('Message Sent.');
         this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
+      } else if (response.data.status === 'fail') {
+        alert('Message failed to send.');
       }
     });
   }
