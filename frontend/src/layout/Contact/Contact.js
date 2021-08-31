@@ -45,7 +45,7 @@ class Contact extends React.Component {
     }
     axios({
       method: 'POST',
-      url: 'https://powerful-lake-01064.herokuapp.com/send',
+      url: 'https://nifty-banach-5750bd.netlify.app/send',
       data: this.state,
     }).then((response) => {
       //  console.log(response)
