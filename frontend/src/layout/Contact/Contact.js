@@ -45,7 +45,7 @@ class Contact extends React.Component {
     }
     axios({
       method: 'POST',
-      url: 'https://nifty-banach-5750bd.netlify.app/send',
+      url: 'http://nifty-banach-5750bd.netlify.app/send',
       data: this.state,
     }).then((response) => {
       //  console.log(response)
