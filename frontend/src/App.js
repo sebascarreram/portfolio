@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Switch, Route } from "react-router-dom";
-
 import "./App.css";
 
 import Aux from "./hoc/Aux";
@@ -13,7 +12,6 @@ const Portfolio = React.lazy(() => import("./layout/Projects/Projects"));
 const About = React.lazy(() => import("./layout/About/About"));
 const Contact = React.lazy(() => import("./layout/Contact/Contact"));
 const Nofound = React.lazy(() => import("./layout/404/Nofound"));
-
 const App = () => {
   return (
     <Aux>
