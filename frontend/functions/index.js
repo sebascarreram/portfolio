@@ -3,7 +3,7 @@ const functions = require("firebase-functions");
 const nodemailer = require("nodemailer");
 
 //when this cloud function is already deployed, change the origin to 'https://your-deployed-app-url
-const cors = require("cors")({ origin: "sebascarreram.netlify.app" });
+const cors = require("cors")({ origin: "https://sebascarreram.netlify.app" });
 
 //create and config transporter
 let transporter = nodemailer.createTransport({
