@@ -9,49 +9,10 @@
   align-items: center;
 }
 
-.CardContact {
-  /* min-width: 112%; */
-}
-
 .CardContact p {
   font-size: 1.9rem;
 
   text-align: center;
-}
-.CardMessage {
-  margin-top: 2rem;
-  background-color: #ecf0f1;
-  border-radius: 5px;
-  max-width: 880px;
-  padding: 2rem;
-  cursor: pointer;
-
-  transition: 0.2s all;
-}
-
-.CardMessage:hover {
-  background-color: #bdc3c7;
-}
-
-.CardMessage p {
-  color: #000;
-}
-/*
- .Input {
-  width: 49%;
-}
-
-.Input input {
-  width: 100%;
-}
-
-.Subject {
-} */
-
-@media only screen and (max-width: 20em) {
-  /* .ContactSection {
-    padding: 1rem;
-  } */
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -68,48 +29,13 @@
   }
 }
 
-.message {
+.Message {
   font-size: 700;
   font-family: inherit;
   color: #2ecc71;
 }
 
-.label {
-  font-size: 1.6rem;
-}
-
 .formDiv {
   max-width: 80rem;
-  margin: 2rem auto 0 auto;
-}
-.formGroup {
-  display: flex;
-  flex-direction: column;
-}
-.formControl {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-.btnPrimary {
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-
-  background-color: #4caf50;
-}
-.btnPrimary:hover {
-  background-color: #27ae60;
+  margin: 5rem auto 0 auto;
 }
